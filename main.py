@@ -2,6 +2,7 @@ import requests
 from PyQt5 import QtWidgets
 import json
 
+# Documentation to do this was obtained from https://developers.cloudflare.com/workers-ai/
 secrets = json.load(open("secrets.json"))
 API_BASE_URL = "https://api.cloudflare.com/client/v4/accounts/" +secrets.get("user")+"/ai/run/"
 headers = {"Authorization": "Bearer "+secrets.get("token")}
