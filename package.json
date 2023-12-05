@@ -4,11 +4,11 @@
     "deploy": "wrangler deploy --minify src/index.tsx"
   },
   "dependencies": {
-    "@cloudflare/ai": "^1.0.35",
-    "hono": "^3.10.3"
+    "@cloudflare/ai": "^1.0.36",
+    "hono": "^3.11.2"
   },
   "devDependencies": {
-    "@cloudflare/workers-types": "^4.20230914.0",
-    "wrangler": "^3.10.1"
+    "@cloudflare/workers-types": "^4.20231121.0",
+    "wrangler": "^3.18.0"
   }
 }
