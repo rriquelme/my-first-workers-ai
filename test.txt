@@ -1,0 +1,1 @@
+curl https://api.cloudflare.com/client/v4/accounts/4e4b4368ad1b047d16d169a02ab8310e/ai/run/@cf/meta/llama-2-7b-chat-int8  -H 'Authorization: Bearer gjpG5-ppm8B3m51eiexFWFJxXbKatlJFhjpC6Ig_'  -d '{ "prompt": "Where did the phrase Hello World come from" }'
