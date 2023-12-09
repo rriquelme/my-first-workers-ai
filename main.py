@@ -15,7 +15,7 @@ def run(model, inputs):
 def ask_question():
     question = question_entry.text()
     inputs = [
-        { "role": "system", "content": "You are a friendly assistant that helps write stories" },
+        { "role": "system", "content": "You are a friendly assistant" },
         { "role": "user", "content": question }
     ]
     output = run("@cf/meta/llama-2-7b-chat-int8", inputs)
